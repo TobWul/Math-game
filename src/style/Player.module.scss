@@ -1,0 +1,19 @@
+.player {
+    padding: 5% 0;
+    width: 100%;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    height: calc(90vw / 9);
+}
+
+.score {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
