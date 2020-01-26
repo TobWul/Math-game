@@ -61,6 +61,7 @@ const Player = ({
       >
         {score}
       </div>
+      <p>Turn: {turnNumber}</p>
       <div className={style.numbers}>
         {range.map(n => {
           return (
