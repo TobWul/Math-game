@@ -1,6 +1,11 @@
 .player {
     padding: 5% 0;
     width: 100%;
+    opacity: 0.5;
+}
+
+.currentTurn {
+    opacity: 1;
 }
 
 .numbers {

@@ -52,7 +52,7 @@ const Player = ({
     setTurnNumber(turnNumber + 1);
   };
   return (
-    <div className={style.player}>
+    <div className={`${style.player} ${turn && style.currentTurn}`}>
       <div
         className={style.score}
         style={
